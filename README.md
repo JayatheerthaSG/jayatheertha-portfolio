@@ -46,33 +46,7 @@ dist
 ### GitHub Pages
 Build the project with `npm run build`, then deploy the generated `dist` directory using GitHub Actions or another Pages deployment workflow.
 
-## Updating portfolio content
 
-Edit:
-
-```text
-src/data/portfolio.js
-```
-
-The UI components are intentionally separated from the portfolio data.
-
-## Replacing the resume
-
-Replace:
-
-```text
-public/resume/Jayatheertha_SG_Resume.pdf
-```
-
-Keep the same filename or update the download path in `src/App.jsx`.
-
-## Adding projects
-
-Add another object to the `projects` array in:
-
-```text
-src/data/portfolio.js
-```
 
 ## Notes
 
